@@ -1,29 +1,29 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     height: 80px;
     padding: 0 50px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.navitem {
-    margin-left: 50px;
+  }
+  
+  .navitem {
     font-size: 18px;
     color: #000;
     text-decoration: none;
     cursor: pointer;
-
+    margin: 0; 
+    padding: 0 15px; 
+  
     &:hover {
-        color: #999;
+      color: #999;
     }
-}
-
-.logo{
+  }
+  
+  .logo {
     font-size: 32px;
     font-weight: bold;
     color: #000;
     text-decoration: none;
-}
-
+  }
