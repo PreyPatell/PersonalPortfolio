@@ -1,29 +1,29 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #333; /* Add your desired background color */
+    padding: 10px;
+    z-index: 100;
+}
+
 .navbar {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    height: 80px;
-    padding: 0 50px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navitem {
-    font-size: 18px;
-    color: #000;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navitem {
+    color: white; /* Add your desired text color */
     text-decoration: none;
     cursor: pointer;
-    margin: 0; 
-    padding: 0 15px; 
-  
-    &:hover {
-      color: #999;
-    }
-  }
-  
-  .logo {
-    font-size: 32px;
-    font-weight: bold;
-    color: #000;
-    text-decoration: none;
-  }
+}
+
+.navitem:hover {
+    color: #61dafb; /* Add your desired text color on hover */
+}
+
+.active {
+    color: #61dafb; /* Add your desired text color for the active link */
+}

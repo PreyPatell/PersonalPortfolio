@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useRef } from 'react';
 import './Hero.css';
 import { TypeAnimation } from "react-type-animation";
 import personalPic from "../assets/prey_personal.jpg"
@@ -19,17 +20,17 @@ function Hero() {
                     <div>
                         <TypeAnimation className="interest"
                             sequence={[
-                                'I am a Developer👨🏽‍💻',
+                                'Developer👨🏽‍💻',
                                 1000,
-                                'I am a Basketball Head🏀',
+                                'Basketball Head🏀',
                                 1000,
-                                'I am a Traveler✈️',
+                                'Traveler✈️',
                                 1000,
-                                'I am a Music Fan🎵',
+                                'Music Fan🎵',
                                 1000,
-                                'I am a Gamer🎮',
+                                'Gamer🎮',
                                 1000,
-                                'I am an Outdoors Adventurer🏞️',
+                                'Outdoors Adventurer🏞️',
                                 1000
                             ]}
                             wrapper="span"
@@ -42,10 +43,10 @@ function Hero() {
             <div className="about-me">
                 <img src = {personalPic} className = "profile-pic"></img>
                 <div className="me">
-                    <p className="hello">Hello</p>
-                    <p >My name is Prey</p>
-                    <p>I am a Software Engineering Student at Western University.</p>
-                    <p>I am passionate about back-end development and driven to make a 
+                    <p className="hello">Hello.</p>
+                    <p className="name">My name is Prey </p>
+                    <p className="textP">I am a Software Engineering Student at Western University.</p>
+                    <p className="textP">I am passionate about back-end development and driven to make a 
                         meaningful impact through technology.</p>
                     <div className="social">
                         <a href='https://www.linkedin.com/in/preyrpatel/' className="social-link">

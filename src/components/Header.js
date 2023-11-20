@@ -1,16 +1,51 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import './Header.css';
 
 function Header() {
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
+
     return (
-       <headerwrapper >
+        <header className="sticky-header">
             <nav className="navbar">
-                <navitem className="navitem" href = "/">Home</navitem>
-                <navitem className="navitem" href = "/resume">Resume</navitem>
-                <navitem className="navitem" href = "/projects">Projects</navitem>
+                <Link
+                    className="navitem"
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    Home
+                </Link>
+                <Link
+                    className="navitem"
+                    activeClass="active"
+                    to="resume"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    Resume
+                </Link>
+                <Link
+                    className="navitem"
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    Projects
+                </Link>
             </nav>
-       </headerwrapper>
-    )
+        </header>
+    );
 }
 
 export default Header;
