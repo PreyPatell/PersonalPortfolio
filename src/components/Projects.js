@@ -12,53 +12,66 @@ function Projects() {
             <p className="line">___________________________________________________________________________________________</p>
             <div className="project-container">
                 <div className="project-box">
-                    <a href="https://github.com/PreyPatell/TwitterSensitivityAnalysis">
+                    <a href="https://github.com/PreyPatell/TwitterSensitivityAnalysis" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-img">
                             <img src={twitterAnalysis}></img>
                         </div>
                         <div className="project-content">
                             <p className="project-title">Twitter Hashtag Sensitivity Analyzer</p>
-                            <p className="project-category">Python</p>
-                            <p className="project-text">Flask, Pandas, NumPy, Analytics, API</p>
+                            <p className="project-text">
+                                <span className="project-category">Python</span>
+                                <span>/</span>
+                                <span>Flask, Pandas, NumPy, Analytics, API</span>
+                            </p>
                         </div>
 
                     </a>
                 </div>
                 <div className="project-box">
-                    <a href="">
+                    <a href="" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-img">
                             <img src={iFinance}></img>
                         </div>
                         <div className="project-content">
                             <p className="project-title">Finanace Management System</p>
-                            <p className="project-category">Java, SQL</p>
-                            <p className="project-text">Data Structures, Databases</p>
+                            <p className="project-text">
+                                <span className="project-category">Java, SQL</span>
+                                <span>/</span>
+                                <span>Data Structures, Databases</span>
+                            </p>
+    
                         </div>
 
                     </a>
                 </div>
                 <div className="project-box">
-                    <a href="https://github.com/PreyPatell/NBAPlayerComparison">
+                    <a href="https://github.com/PreyPatell/NBAPlayerComparison" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-img">
                             <img src={nbaComparison}></img>
                         </div>
                         <div className="project-content">
                             <p className="project-title">NBA Player Comparison</p>
-                            <p className="project-category">Python, VueJS</p>
-                            <p className="project-text">Flask, Pandas, NumPy, Algorithms</p>
+                            <p className="project-text">
+                                <span className="project-category">Python, VueJS</span>
+                                <span>/</span>
+                                <span>Flask, Pandas, NumPy, Algorithms</span>
+                            </p>
                         </div>
 
                     </a>
                 </div>
                 <div className="project-box">
-                    <a href="https://github.com/PreyPatell/AvatarGame">
+                    <a href="https://github.com/PreyPatell/AvatarGame" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-img">
                             <img src={avatarGame}></img>
                         </div>
                         <div className="project-content">
                             <p className="project-title">Avatar Game</p>
-                            <p className="project-category">Python</p>
-                            <p className="project-text">PyGame, Object-Orientated Programming</p>
+                            <p className="project-text">
+                                <span className="project-category">Python</span>
+                                <span>/</span>
+                                <span>PyGame, Object-Orientated Programming</span>
+                            </p>
                         </div>
 
                     </a>
