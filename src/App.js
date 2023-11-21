@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Education/>
       <Skills/>
       <Experience/>
-      <Hero/>
+      <Projects/>
     </div>
   );
 }

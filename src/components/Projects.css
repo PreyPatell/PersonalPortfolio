@@ -1,0 +1,47 @@
+.line{
+    margin-top: -30px;
+    text-align: center;
+    font: bold;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.project{
+    background-color: lightgray;
+    padding: 25px;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: lightgray;
+    padding: 25px;
+}
+
+.project-box {
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid #000000;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.project-box:hover {
+    transform: scale(1.05);
+}
+  
+.project-img img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+  
+.project-content {
+    margin-top: 5px;
+}

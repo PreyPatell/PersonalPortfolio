@@ -86,7 +86,7 @@ function Skills() {
                 {renderMultiSkill("Test Driven Development", FaBug)}
                 {renderMultiSkill("Object Orientated", PiGraph)}
 
-                {renderMultiSkill("Data Structure", FaDatabase)}
+                {renderMultiSkill("Data Structures", FaDatabase)}
                 {renderMultiSkill("Algorithms", SiThealgorithms)}
             </div>
         </div>
