@@ -70,7 +70,7 @@ function Projects() {
                             <p className="project-text">
                                 <span className="project-category">Python</span>
                                 <span>/</span>
-                                <span>PyGame, Object-Orientated Programming</span>
+                                <span>Pygame, Object-Orientated Programming</span>
                             </p>
                         </div>
 
