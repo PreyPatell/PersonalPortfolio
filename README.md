@@ -2,7 +2,9 @@
 
 This personal website iwas created with the goal of showcasing my academic, interests, passion and experience in the tech field. 
 
-Deployed Version:
+Deployed Version: https://preypatel.netlify.app/
+
+![website_pic](https://github.com/PreyPatell/PersonalPortfolio/assets/84814013/0a6841b1-cadb-4abd-8261-c0cfab3df323)
 
 ## Technologies
 
