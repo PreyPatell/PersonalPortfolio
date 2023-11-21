@@ -7,7 +7,7 @@ import western from '../assets/western_logo.gif'
 
 function Experience() {
     return (
-        <div className="experience-container">
+        <div className="experience-container" id = "resume">
             <p className="title">EXPERIENCE</p>
             <p className="line">___________________________________________________________________________________________</p>
             <p className="title2">TECHNICAL. WORK.</p>

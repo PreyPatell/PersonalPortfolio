@@ -1,7 +1,7 @@
 .sticky-header {
     position: sticky;
     top: 0;
-    background-color: #333; /* Add your desired background color */
+    background-color: #333; 
     padding: 10px;
     z-index: 100;
 }
@@ -15,15 +15,15 @@
 }
 
 .navitem {
-    color: white; /* Add your desired text color */
+    color: white; 
     text-decoration: none;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .navitem:hover {
-    color: #61dafb; /* Add your desired text color on hover */
+    color: lightgray; 
 }
 
-.active {
-    color: #61dafb; /* Add your desired text color for the active link */
-}

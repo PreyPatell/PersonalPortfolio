@@ -40,6 +40,7 @@
 }
 
 .education-info {
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     text-align: left;
 }
@@ -51,6 +52,7 @@
 }
 
 .class-list {
+    font-family: 'Times New Roman', Times, serif;
     list-style: none;
     padding: 0;
     margin: 0;

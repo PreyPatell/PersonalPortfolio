@@ -13,7 +13,7 @@ import { MdEmail } from "react-icons/md";
 function Hero() {
     return (
         <div>
-            <div className="profile">
+            <div className="profile" id="home">
                 <img src = {outdoorPic} className = "background-photo"></img>
                 <div className="overlay">
                     <h1>Prey Patel</h1>

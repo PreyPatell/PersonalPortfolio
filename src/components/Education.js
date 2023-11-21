@@ -6,7 +6,7 @@ import "./Education.css"
 
 function Education() {
     return (
-    <div className="education">
+    <div className="education" id = "resume">
         <p className="title">EDUCATION</p>
         <p className="line">___________________________________________________________________________________________</p>
         <div className="education-grid">
