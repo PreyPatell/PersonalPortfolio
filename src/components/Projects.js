@@ -7,7 +7,7 @@ import twitterAnalysis from "../assets/twitter_cohere_project.jpg"
 
 function Projects() {
     return (
-        <div className="project">
+        <div className="project" id = "projects">
             <p className="title">PROJECTS</p>
             <p className="line">___________________________________________________________________________________________</p>
             <div className="project-container">
