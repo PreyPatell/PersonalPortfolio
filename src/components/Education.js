@@ -1,7 +1,6 @@
 import React from "react";
 import { IoSchoolSharp } from "react-icons/io5";
 import { FaBookOpen } from "react-icons/fa";
-import { FaAward } from "react-icons/fa";
 import "./Education.css"
 
 
@@ -9,6 +8,7 @@ function Education() {
     return (
     <div className="education">
         <p className="title">EDUCATION</p>
+        <p className="line">___________________________________________________________________________________________</p>
         <div className="education-grid">
             <div className='education-container'>
                 <div className='education-box'>
@@ -17,7 +17,9 @@ function Education() {
                         &nbsp; Western University</p>
                     <p className='education-info'>
                         Bachelor of Engineering Science,
-                        Software Engineering <br></br>
+                        Software Engineering
+                    </p>
+                    <p className='education-info2'>
                         Deans Honor List with 3.7 GPA
                     </p>
                 </div>

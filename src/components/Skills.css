@@ -1,7 +1,107 @@
 .title {
-    .title{
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 25px;
-    }
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.skill-container{
+    background-color: lightgray;
+    padding: 25px;
+}
+  
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.skill-inner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.skill-lang {
+    flex: 0.5;
+    font-weight: bold;
+    margin-right: 25px;
+    text-align: right;
+}
+
+.skill {
+    flex: 3;
+}
+
+.bar-container {
+    width: 80%;
+    height: 20px;
+    background-color: #ddd;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #b84f4f;
+    transition: width 0.5s;
+    position: relative;
+}
+
+.percent-text {
+    position: absolute;
+    right: 5px;
+    color: white;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.line{
+    margin-top: -50px;
+    text-align: center;
+    font: bold;
+}
+
+.multiskill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.multiskill-inner-box{
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+.multiskill-inner-box:hover{
+    transform: scale(1.05);
+}
+
+.skill-icon{
+   align-items: center;
+   justify-content: center;
+   text-align:center;
+   vertical-align: middle;
+   border-color:black;
+   margin-top: 15px;
+   margin-bottom: -10px;
+}
+
+.multiskill-name{
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
 }
