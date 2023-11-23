@@ -1,6 +1,6 @@
 # Prey Patel Personal Website
 
-This personal website iwas created with the goal of showcasing my academic, interests, passion and experience in the tech field. 
+This personal website was created with the goal of showcasing my academic, interests, passion and experience in the tech field. 
 
 Deployed Version: https://preypatel.netlify.app/
 
